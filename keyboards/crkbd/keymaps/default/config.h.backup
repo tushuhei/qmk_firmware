@@ -28,6 +28,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MASTER_RIGHT
 // #define EE_HANDS
 
+#define SSD1306OLED
+
 #define USE_SERIAL_PD2
 
 #define TAPPING_FORCE_HOLD
@@ -43,12 +45,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #define RGBLIGHT_VAL_STEP 17
 #endif
 
-#define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
-
 // ref. http://oookaworks.seesaa.net/article/465349890.html
 #define PERMISSIVE_HOLD
 #define RETRO_TAPPING
-
-// ref. https://beta.docs.qmk.fm/using-qmk/software-features/feature_combo
-#define COMBO_COUNT         1
-#define COMBO_TERM          500
